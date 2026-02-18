@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "CV_Dietz_02-2026"]
   workflow_dispatch:
 
 permissions:
