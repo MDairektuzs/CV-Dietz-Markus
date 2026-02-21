@@ -79,9 +79,9 @@ export function EventDetail({ event, open, onClose }: EventDetailProps) {
       <div className="border-t border-border" />
 
       {/* Details */}
-      <div className="text-sm leading-relaxed text-foreground/80">
-        {event.details}
-      </div>
+<div className="text-sm leading-relaxed text-foreground/80 whitespace-pre-line">
+  {event.details}
+</div>
     </div>
   );
 
